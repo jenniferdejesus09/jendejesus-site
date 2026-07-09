@@ -459,11 +459,12 @@
       <h2>Let's talk.</h2>
       <p>Whether you're a search committee, a recruiter, or an organization exploring consulting support, I'd love to hear from you.</p>
     </div>
-    <form enctype="multipart/form-data">
+    <form action="https://formspree.io/f/xeebbkgn" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_subject" value="New message from jendejesus.com">
       <label for="name">Name</label>
       <input type="text" id="name" name="name" placeholder="Your name" required>
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      <input type="email" id="email" name="_replyto" placeholder="you@example.com" required>
       <label for="message">Message</label>
       <textarea id="message" name="message" rows="5" placeholder="How can I help?" required></textarea>
       <label for="attachment">Attachment (optional)</label>
