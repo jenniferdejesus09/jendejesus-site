@@ -3,6 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Jennifer De Jesus — Healthcare & Nonprofit Operations Executive">
+<meta property="og:description" content="Fourteen-plus years building the systems that hold, across national training infrastructure, multi-site healthcare operations, and close-range operational leadership.">
+<meta property="og:url" content="https://jendejesus.com">
+<meta property="og:type" content="website">
 <title>Jennifer De Jesus — Operations Executive</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -205,7 +209,7 @@
     .voice-gallery img{ height:150px; }
   }
 
-  .press-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:18px; }
+  .press-grid{ display:grid; grid-template-columns:repeat(2, 1fr); gap:18px; }
   .press-card{
     background:#fff; border-radius:10px; padding:24px 22px;
     border:1px solid rgba(75,46,32,0.08);
@@ -228,24 +232,31 @@
     opacity:.7; text-align:center; margin-top:12px;
   }
   .leadership{ background:var(--cream); padding:84px 0; }
-  .leadership-head{ text-align:center; max-width:640px; margin:0 auto 50px; }
+  .leadership-head{ text-align:center; max-width:640px; margin:0 auto 44px; }
   .leadership-head h2{ font-size:32px; font-weight:600; margin-bottom:12px; }
-  .word-grid{
-    display:grid; grid-template-columns:repeat(3, 1fr); gap:26px;
+  .leadership-story{ max-width:680px; margin:0 auto; }
+  .leadership-story .lede{
+    font-family:'Fraunces', serif; font-style:italic; font-weight:500;
+    font-size:21px; color:var(--navy); line-height:1.45; margin:0 0 24px;
   }
-  .word-item{ text-align:center; padding:0 10px; }
-  .word-item .word{
-    font-family:'Fraunces', serif; font-style:italic; font-weight:600; font-size:26px;
-    color:var(--sienna); margin-bottom:8px;
+  .leadership-story p{
+    font-family:'Lora', serif; font-size:15px; line-height:1.75;
+    color:var(--charcoal); margin:0 0 20px;
   }
-  .word-item .desc{ font-size:13px; color:var(--charcoal); }
-  @media (max-width:760px){ .word-grid{ grid-template-columns:1fr; gap:34px; } }
+  .leadership-story p:last-child{ margin-bottom:0; }
 
-  .placeholder-note{
-    max-width:640px; margin:50px auto 0; text-align:center;
-    font-family:'Nunito Sans', sans-serif; font-size:11.5px; color:var(--charcoal);
-    opacity:.6; border-top:1px dashed rgba(75,46,32,0.3); padding-top:18px;
+  .leadership-traits{
+    max-width:680px; margin:44px auto 0; padding-top:36px;
+    border-top:1px solid rgba(75,46,32,0.18);
+    display:grid; grid-template-columns:repeat(3, 1fr); gap:22px;
   }
+  .trait-item{ text-align:center; padding:0 8px; }
+  .trait-item .trait-word{
+    font-family:'Fraunces', serif; font-style:italic; font-weight:600; font-size:20px;
+    color:var(--sienna); margin-bottom:6px;
+  }
+  .trait-item .trait-desc{ font-family:'Lora', serif; font-size:12.5px; color:var(--charcoal); line-height:1.5; }
+  @media (max-width:760px){ .leadership-traits{ grid-template-columns:1fr; gap:26px; } }
 
   /* ---------------- CONSULTING ---------------- */
   .consulting{
@@ -378,12 +389,12 @@
       <div class="program-card">
         <div class="eyebrow">Signature Program</div>
         <h3>CAPS University</h3>
-        <p>Built a centralized digital onboarding system for medical assistants and providers across 56 affiliates nationwide. Still running today.</p>
+        <p>Built a centralized digital onboarding system for medical assistants and providers, adopted voluntarily across 56 affiliates that had no obligation to use it. Built through listening, not mandate, since the national office has no authority over any independently governed affiliate. Still running today.</p>
       </div>
       <div class="program-card">
         <div class="eyebrow">Signature Program</div>
         <h3>National Ultrasound Proctoring Program</h3>
-        <p>Designed and deployed a proctoring infrastructure spanning all 50 states, built to hold clinical standards steady at national scale.</p>
+        <p>Designed and deployed a proctoring infrastructure spanning all 50 states, each with its own legal requirements. Affiliates adopted it because it was built with them, not handed down to them, the only kind of national program that actually survives fifty different local realities.</p>
       </div>
     </div>
   </div>
@@ -415,6 +426,10 @@
         <div class="outlet">Florida H.B. 5</div>
         <p>Spoke at a press conference opposing the bill, representing frontline operational and patient-care perspective.</p>
       </div>
+      <div class="press-card">
+        <div class="outlet">Tampa Bay Times &middot; 2015</div>
+        <p>Pictured and quoted as Tampa Health Center manager in "Planned Parenthood braces for fight," covering the organization's response to mounting state restrictions.</p>
+      </div>
     </div>
     <figure class="press-feature">
       <img src="press-conference.jpg" alt="Jennifer De Jesus speaking at a press conference opposing Florida H.B. 5">
@@ -428,23 +443,29 @@
   <div class="wrap">
     <div class="leadership-head">
       <div class="eyebrow">Leadership Style</div>
-      <h2>How I actually lead.</h2>
+      <h2>Leading Through Uncertainty</h2>
     </div>
-    <div class="word-grid">
-      <div class="word-item">
-        <div class="word">Direct.</div>
-        <div class="desc">I name what's actually broken, not the version that's comfortable to say out loud.</div>
+    <div class="leadership-story">
+      <p class="lede">Leading through political intensity has never been occasional for me. It has been the job, at every level.</p>
+      <p>As a health center manager in Florida, I got a call one afternoon: a court ruling meant we had to stop providing abortion care immediately. Minutes later, another call: we could continue. I had a team and a waiting room full of patients, and the ground moved twice in the time it took to hang up the phone.</p>
+      <p>Years later, at the national office, Roe fell. Overnight, patient volume shifted dramatically across state lines, states that could still provide care absorbed it, states that couldn't lost it entirely. Affiliates needed a way to bring new staff up to speed fast enough to meet a surge nobody had planned for. I built the national training infrastructure that let them do it.</p>
+      <p>More recently, a federal ruling changed medication access overnight, hours before a scheduled clinic, with a team that needed clear direction before the doors opened.</p>
+      <p>Different states, different rulings, different titles on my badge. The same job every time: give my team enough clarity to keep doing the work while the ground was still moving underneath it.</p>
+    </div>
+    <div class="leadership-traits">
+      <div class="trait-item">
+        <div class="trait-word">Direct.</div>
+        <div class="trait-desc">I name what's actually broken, not the version that's comfortable to say out loud.</div>
       </div>
-      <div class="word-item">
-        <div class="word">In the room.</div>
-        <div class="desc">I don't manage from a distance. I'm beside the team while the fix happens.</div>
+      <div class="trait-item">
+        <div class="trait-word">In the room.</div>
+        <div class="trait-desc">I don't manage from a distance. I'm beside the team while the fix happens.</div>
       </div>
-      <div class="word-item">
-        <div class="word">Steady.</div>
-        <div class="desc">Consistency, applied daily, is what actually moves a struggling team forward.</div>
+      <div class="trait-item">
+        <div class="trait-word">Steady.</div>
+        <div class="trait-desc">Consistency, applied daily, is what actually moves a team forward, especially when nothing else feels steady.</div>
       </div>
     </div>
-    <div class="placeholder-note">A fuller story on leadership under pressure is coming soon to this section.</div>
   </div>
 </section>
 
